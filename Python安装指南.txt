@@ -1,0 +1,54 @@
+Python安装指南
+==============
+
+为了运行发票金额提取重命名机器人，您需要先安装Python环境。以下是详细的安装步骤：
+
+一、Windows系统安装Python
+---------------------
+
+1. 下载Python安装程序：
+   - 访问官方网站：https://www.python.org/downloads/
+   - 点击"Download Python X.X.X"按钮下载最新版本
+   - 或直接访问：https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
+
+2. 运行安装程序：
+   - 双击下载的安装文件
+   - 勾选"Add Python to PATH"选项（非常重要！）
+   - 点击"Install Now"进行标准安装
+   - 等待安装完成
+
+3. 验证安装：
+   - 安装完成后，打开命令提示符(cmd)或PowerShell
+   - 输入命令：python --version
+   - 如果显示Python版本号，则表示安装成功
+
+二、安装程序依赖
+-------------
+
+1. 打开命令提示符(cmd)或PowerShell
+
+2. 切换到程序所在目录：
+   - 输入命令：cd 程序所在路径
+   - 例如：cd C:\Users\用户名\Desktop\发票
+
+3. 安装依赖包：
+   - 输入命令：pip install -r requirements.txt
+   - 等待安装完成
+
+三、常见问题
+---------
+
+1. "Python不是内部或外部命令"错误：
+   - 原因：Python未添加到系统PATH中
+   - 解决方法：重新安装Python，并确保勾选"Add Python to PATH"选项
+
+2. pip命令不可用：
+   - 原因：pip可能未安装或未添加到PATH中
+   - 解决方法：重新安装Python，或手动安装pip
+
+3. 安装依赖失败：
+   - 原因：网络问题或权限不足
+   - 解决方法：使用管理员权限运行命令提示符，或尝试使用国内镜像源
+     例如：pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+安装完成后，您可以双击"启动.bat"文件运行发票金额提取重命名机器人。

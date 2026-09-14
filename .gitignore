@@ -1,0 +1,50 @@
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+.eggs/
+
+# ============ PyInstaller 打包产物 ============
+build/
+dist/
+*.spec.bak
+*.manifest
+
+# ============ 第三方工具（UPX 为外部压缩工具，不入库） ============
+upx.exe
+upx.zip
+upx_tmp/
+
+# ============ Agent 工具数据（内部工作日志，不公开） ============
+.workbuddy/
+
+# ============ 运行时/临时文件 ============
+*.log
+selftest_result.txt
+_analyze_size.py
+处理报告.txt
+*_处理结果/
+
+# ============ IDE / 编辑器 ============
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============ 操作系统 ============
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ============ 本项目：发票原件与输出（含隐私，禁止入库） ============
+测试发票/
+测试输出/
+output/
+*.pdf
+!Python安装指南.txt
