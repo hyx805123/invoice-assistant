@@ -29,6 +29,10 @@ EXE 版（推荐）：Windows 7/8/10/11，无需安装 Python，双击即可运�
 
 四、版本与文件
 --------------
+- 开源仓库：https://github.com/hyx805123/invoice-assistant
+- EXE 下载：https://github.com/hyx805123/invoice-assistant/releases/tag/v3.1
+  （GitHub 附件名不支持中文，Release 中的 InvoiceAssistant-v3.1.exe
+    即本项目的 发票小助手-v3.1.exe）
 - 新版 EXE：dist/发票小助手-v3.1.exe（约 84.8 MB / 80.9 MiB，含图标，UPX 压缩后）
 - 旧版 EXE：dist/InvoiceSorter.exe（v3.0，保留不覆盖）
 - 打包脚本：build.bat（自动保留历史版本）

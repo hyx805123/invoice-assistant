@@ -2,6 +2,14 @@
 
 一款轻量级发票批量处理工具，自动提取发票**日期、价税合计金额**，结合**开具单位 + 发票内容**智能识别发票类型，按 `年月-类型-金额` 格式统一重命名并归类整理。
 
+> **仓库地址**：https://github.com/hyx805123/invoice-assistant
+>
+> **下载 EXE**：前往 [Releases](https://github.com/hyx805123/invoice-assistant/releases/tag/v3.1) 页面下载
+> `InvoiceAssistant-v3.1.exe`（80.9 MB），免安装、无需 Python 环境，双击即可运行。
+>
+> 注：GitHub 附件名不支持中文，故 Release 附件使用英文名 `InvoiceAssistant-v3.1.exe`，
+> 与本地打包产物 `发票小助手-v3.1.exe` 为同一文件。
+
 ## 版本说明
 
 - **v3.1**（当前）：新增软件图标、窗口角标，优化打包体积，发布为新版本 `dist/发票小助手-v3.1.exe`，旧版 `InvoiceSorter.exe` 保留。
@@ -25,7 +33,8 @@
 
 ## 使用说明（EXE 版，推荐）
 
-1. 双击 `发票小助手-v3.1.exe` 运行（无需安装 Python）
+1. 从 [Releases](https://github.com/hyx805123/invoice-assistant/releases/tag/v3.1) 下载 `发票小助手-v3.1.exe`
+2. 双击运行（无需安装 Python）
 2. 点击「选择文件」或「选择文件夹」
 3. （可选）点击「选择输出文件夹」，不选则默认在源文件夹旁创建 `xx_处理结果`
 4. 选择归类方式（默认「按月份+类型分类」）
